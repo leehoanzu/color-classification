@@ -1,0 +1,11 @@
+# =====================================================
+# Parse information socket to connect PLC via Lan route
+# ======================================================
+---
+Name: 'server' # server or client
+
+Receive: 'a'  # Receive message from another host
+Send: 'e'     # Send message to another host
+
+Port: 2999 # Number port
+Host: '192.168.0.100' # IP host
