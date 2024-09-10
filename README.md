@@ -1,4 +1,4 @@
-<a><img height="200" src="https://github.com/leehoanzu/color-classification/blob/main/screen-shots/panel.png"></a>
+<a><img align="center" height="500" src="https://github.com/leehoanzu/color-classification/blob/main/screen-shots/panel.png"></a>
 
 
 # Welcome to Color classification Repository
