@@ -1,5 +1,8 @@
 ![`A panel for utilizing AI models on Raspberry Pi 5 with a PLC connection`](https://github.com/leehoanzu/color-classification/blob/main/screen-shots/panel.png)
 
+<img  width="200"  src="(https://github.com/leehoanzu/color-classification/blob/main/screen-shots/panel.png" alt="A panel for utilizing AI models on Raspberry Pi 5 with a PLC connection">
+
+
 # Welcome to Color classification Repository
 
 This repository provides software that utilizes an AI model on the Raspberry Pi 5, connected to a PLC via Ethernet, for color classification. You will find in this repo the following stuff:
