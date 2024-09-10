@@ -1,4 +1,4 @@
-# Welcome to Color classification Repository
+# Welcome to Color Classification Repository
 
 This repository provides software that utilizes an AI model on the Raspberry Pi 5, connected to a PLC via Ethernet, for color classification. You will find in this repo the following stuff:
 
