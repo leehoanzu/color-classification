@@ -1,6 +1,4 @@
-![`A panel for utilizing AI models on Raspberry Pi 5 with a PLC connection`](https://github.com/leehoanzu/color-classification/blob/main/screen-shots/panel.png)
-
-<img  width="200"  src="(https://github.com/leehoanzu/color-classification/blob/main/screen-shots/panel.png" alt="A panel for utilizing AI models on Raspberry Pi 5 with a PLC connection">
+<a><img width="200" src="https://github.com/leehoanzu/color-classification/blob/main/screen-shots/panel.png"></a>
 
 
 # Welcome to Color classification Repository
