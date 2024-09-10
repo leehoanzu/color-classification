@@ -1,7 +1,6 @@
-<a><img align="center" height="500" src="https://github.com/leehoanzu/color-classification/blob/main/screen-shots/panel.png"></a>
-
-
 # Welcome to Color classification Repository
+
+<a><img align="right" width="200" height="200" src="https://github.com/leehoanzu/color-classification/blob/main/screen-shots/panel.png"></a>
 
 This repository provides software that utilizes an AI model on the Raspberry Pi 5, connected to a PLC via Ethernet, for color classification. You will find in this repo the following stuff:
 
