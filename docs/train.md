@@ -167,6 +167,9 @@ model_conv = train_model(model_conv, criterion, optimizer_conv,
                          exp_lr_scheduler, num_epochs=25)
 ```
 
+![prediction-result](https://github.com/leehoanzu/color-classification/blob/main/screen-shots/prediction-result.png)
+![prediction-result](https://github.com/leehoanzu/color-classification/blob/main/screen-shots/heatmap.png)
+
 ## Inference on custome images
 
 * Use the trained model to make predictions on custom images and visualize the predicted class labels along with the images.
@@ -194,4 +197,5 @@ plt.ioff()
 plt.show()
 ```
 
+![prediction-result](https://github.com/leehoanzu/color-classification/blob/main/screen-shots/inference-results.png)
 
