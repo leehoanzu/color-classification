@@ -28,9 +28,6 @@
 ### Python virtual Environment ###
 onnx_env/
 
-### Docker ignore file ###
-.dockerignore
-
 ### NOTE ###
 NOTE
 
