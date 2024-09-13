@@ -168,10 +168,10 @@ model_conv = train_model(model_conv, criterion, optimizer_conv,
 ```
 
 <p align="center">
-  <img src="https://github.com/leehoanzu/color-classification/blob/main/screen-shots/prediction-result.png" alt="prediction-result">
+  <img src="https://github.com/leehoanzu/color-classification/blob/main/screen-shots/prediction-result.png" alt="prediction-result" width="45%">
+  <img src="https://github.com/leehoanzu/color-classification/blob/main/screen-shots/heatmap.png" alt="heatmap" width="45%">
 </p>
 
-![prediction-result](https://github.com/leehoanzu/color-classification/blob/main/screen-shots/heatmap.png)
 
 ## Inference on custome images
 
