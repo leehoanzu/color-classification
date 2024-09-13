@@ -2,7 +2,9 @@
 
 This guide explains how to train a convolutional neural network (CNN) using transfer learning for image classification. The goal is to classify images into predefined color categories such as white, black, blue, etc.
 
-<!-- We follow [`PyTorch tutorial`](https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html#creating-models) to create our AI model by dividing the 3 color range into 3 distinct folders. Each folder represents a different color, providing a structured way to organize the data.  -->
+> [!NOTE]  
+> <sup>- This guide follows step by step the [PyTorch tutorial](https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html#creating-models)</sup><br>
+> <sup>- For more details, please refer to the official tutorial!</sup>
 
 ## Datasets
 
@@ -61,9 +63,9 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 ## Train the Model
 
-### General function
+### General Training Function
 
-* we write a general function to train a model:
+* We define a general function to train the model and save the best-performing version:
 
 ```python
 def train_model(model, criterion, optimizer, scheduler, num_epochs=25):
@@ -137,7 +139,7 @@ def train_model(model, criterion, optimizer, scheduler, num_epochs=25):
 
 ### Finetuning the ConvNet
 
-* Load a pretrained model and reset final fully connected layer:
+* Load a pretrained model and reset final fully connected layer and define the optimizer and scheduler :
 
 ```python
 # Load pretrained model
@@ -160,12 +162,14 @@ exp_lr_scheduler = lr_scheduler.StepLR(optimizer_conv, step_size=7, gamma=0.1)
 
 ### Train and Evaluate
 
-* It will take around 30 minutes to finish.
+* Training the model typically takes about 30 minutes:
 
 ```python
 model_conv = train_model(model_conv, criterion, optimizer_conv,
                          exp_lr_scheduler, num_epochs=25)
 ```
+
+* Prediction Results
 
 <p align="center">
   <img src="https://github.com/leehoanzu/color-classification/blob/main/screen-shots/prediction-result.png" alt="prediction-result">
@@ -175,7 +179,7 @@ model_conv = train_model(model_conv, criterion, optimizer_conv,
 
 ## Inference on custome images
 
-* Use the trained model to make predictions on custom images and visualize the predicted class labels along with the images.
+* Use the trained model to make predictions on custom images and visualize the predicted class labels along with the images:
 
 ```python
 # Create an instance of ResNet18
