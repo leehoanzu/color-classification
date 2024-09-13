@@ -167,11 +167,10 @@ model_conv = train_model(model_conv, criterion, optimizer_conv,
                          exp_lr_scheduler, num_epochs=25)
 ```
 
-<p>
-  <img src="https://github.com/leehoanzu/color-classification/blob/main/screen-shots/prediction-result.png" alt="prediction-result" width="35%">
-  <img src="https://github.com/leehoanzu/color-classification/blob/main/screen-shots/heatmap.png" alt="heatmap" width="65%">
+<p align="center">
+  <img src="https://github.com/leehoanzu/color-classification/blob/main/screen-shots/prediction-result.png" alt="prediction-result" width="45%" height="auto">
+  <img src="https://github.com/leehoanzu/color-classification/blob/main/screen-shots/heatmap.png" alt="heatmap" width="45%" height="auto">
 </p>
-
 
 ## Inference on custome images
 
