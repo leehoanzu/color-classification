@@ -9,6 +9,22 @@ This repository provides software that utilizes an AI model on the Raspberry Pi 
 3.  **Setting up communication**: Ensuring efficient communication between systems, we include a guide on setting up a [socket connection](https://github.com/leehoanzu/color-classification/blob/main/docs/socket.md) for data transfer between devices.
 4. **Packaging into Docker**: Guidance on packaging the application into a [Docker container](https://github.com/leehoanzu/color-classification/blob/main/docs/packages.md) for ease of deployment and scalability.
 
+## Quickstart
+
+For detailed Docker setup instructions, refer to (packaged.md)[https://github.com/leehoanzu/color-classification/blob/main/docs/packages.md].
+
+```bash
+$ git clone https://github.com/leehoanzu/color-classification.git
+$ ./run.sh leehoanzu/raspberrypi-utils:latest
+```
+
+Or you can manually [run](https://github.com/leehoanzu/color-classification/blob/main/docs/deploy.md) a main script:
+
+```bash
+$ git clone https://github.com/leehoanzu/color-classification.git
+$ python3 ./utils/main.py
+```
+
 ## Contributing
 
 * Contributions are welcome! If you want to contribute to the project, feel free to submit a pull request. Be sure to follow the existing style and include detailed commit messages.
