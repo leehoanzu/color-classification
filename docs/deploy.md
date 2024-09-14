@@ -93,6 +93,14 @@ preds = ortSession.infer(preImage)
 ortSession.display(preds)
 ```
 
+## Run the Script
+
+To execute the script, simply run:
+
+```bash
+$ python3 ./utils/main.py
+```
+
 > [!NOTE]  
 > <sup>1. Replace color-best-edc.onnx with the path to your ONNX model.</sup><br>
 > <sup>2. Adjust the input data format based on your model's requirements.</sup>
