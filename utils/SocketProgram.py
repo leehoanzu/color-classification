@@ -2,6 +2,7 @@ import socket
 import yaml
 import time
 import os
+import sys
 
 class SocketConnection:
     def __init__(self, host, port=3000):
@@ -87,8 +88,9 @@ if __name__ == '__main__':
         # Get absolutely path
         currentDir = os.path.dirname(os.path.abspath(__file__))
         return os.path.abspath(os.path.join(currentDir, path))
-    
-    with open(getAbsPath('../config.yml'), 'r') as f:
+
+    path = getAbsPath("../config.yml") if len(sys.argv) <= 1 else sys.argv[1]
+    with open(getAbsPath(path), 'r') as f:
         items = yaml.load(f, Loader=yaml.FullLoader)
 
     client = SocketConnection(items['Host'], items['Port'])
