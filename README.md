@@ -11,7 +11,7 @@ This repository provides software that utilizes an AI model on the Raspberry Pi 
 
 ## Quickstart
 
-For detailed Docker setup instructions, refer to (packaged.md)[https://github.com/leehoanzu/color-classification/blob/main/docs/packages.md].
+For detailed Docker setup instructions, refer to [packaged.md](https://github.com/leehoanzu/color-classification/blob/main/docs/packages.md).
 
 ```bash
 $ git clone https://github.com/leehoanzu/color-classification.git
