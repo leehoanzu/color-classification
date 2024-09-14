@@ -1,6 +1,6 @@
 # Setting Up the Docker Environment
 
-This project provides a Dockerized environment based on [`dtcooper/raspberrypi-os:latest`](https://github.com/dtcooper/raspberrypi-os-docker.git), set up to run Python scripts utilizing packages like OpenCV, PyTorch, and ONNX. This guide will walk you through how to build and run the Docker container for this project or pull the pre-built image from Docker Hub.
+This project provides a Dockerized environment based on [`dtcooper/raspberrypi-os:latest`](https://github.com/dtcooper/raspberrypi-os-docker.git), set up to run Python scripts utilizing packages like OpenCV, PyTorch, and ONNX. This guide will walk you through how to build and run the Docker container for this project or pull the pre-built image from [Docker Hub](https://hub.docker.com/repository/docker/leehoanzu/raspberrypi-utils/general).
 
 ## Table of Contents
 
@@ -49,7 +49,7 @@ To use this project, you need the following:
 
 ### Option 2: Pull Pre-Built Image
 
-If you don't want to build the image from scratch, you can pull the pre-built image from [my Docker Hub](https://hub.docker.com/repository/docker/leehoanzu/raspberrypi-utils/general):
+If you don't want to build the image from scratch, you can pull the pre-built image from [Docker Hub](https://hub.docker.com/repository/docker/leehoanzu/raspberrypi-utils/general):
 
 1. Pull the image from Docker Hub:
    ```bash
