@@ -11,7 +11,6 @@ This project provides a Dockerized environment based on [`dtcooper/raspberrypi-o
   - [Option 2: Pull Pre-Built Image](#pull-pre-built-image)
   - [Run Docker Container](#run-docker-container)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
 
 ---
 
