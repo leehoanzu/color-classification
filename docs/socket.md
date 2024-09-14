@@ -87,7 +87,7 @@ client = SocketConnection(items['Host'], items['Port'])
 ```
 
 > [!NOTE]  
-> <sup>- The IP address and port can be configured via the [`config.yml`](https://github.com/leehoanzu/color-classification/blob/main/config.yml) file, and passed as an argument at runtime if needed..</sup>
+> <sup>- The IP address and port can be configured via the [`config.yml`](https://github.com/leehoanzu/color-classification/blob/main/config.yml) file, and passed as an argument at runtime if needed.</sup>
 
 ## Run the Script
 
