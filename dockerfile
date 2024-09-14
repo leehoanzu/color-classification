@@ -1,4 +1,3 @@
-# python:3.11-bookworm
 FROM dtcooper/raspberrypi-os:latest
 
 WORKDIR /home
