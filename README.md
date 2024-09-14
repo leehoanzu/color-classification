@@ -15,7 +15,7 @@ This repository provides software that utilizes an AI model on the Raspberry Pi 
 
 ## Contact
 
-* Connect with me via email: lehoangvu260602@gmail.com
+* Cotact with me via email: lehoangvu260602@gmail.com
 
 ## Copyright
 
