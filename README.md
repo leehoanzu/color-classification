@@ -41,8 +41,8 @@ Or you can manually [run](https://github.com/leehoanzu/color-classification/blob
     $ source onnx_venv/bin/activate
     ```
 
-    > [!NOTE]  
-    > <sup>- `onnx_venv` is path to new virtual environment.</sup>
+> [!NOTE]  
+> <sup>- `onnx_venv` is path to new virtual environment.</sup>
 
 3. **Install Dependencies**
 
