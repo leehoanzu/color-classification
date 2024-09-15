@@ -22,47 +22,47 @@ Or you can manually [run](https://github.com/leehoanzu/color-classification/blob
 
 1. **Clone the Repository**
 
-First, clone the repository from GitHub:
+    First, clone the repository from GitHub:
 
-```bash
-$ git clone https://github.com/leehoanzu/color-classification.git
-$ cd color-classification
-```
+    ```bash
+    $ git clone https://github.com/leehoanzu/color-classification.git
+    $ cd color-classification
+    ```
 
 2. **Create a Virtual Environment**
 
-It's recommended to create a virtual environment to isolate your project dependencies:
+    It's recommended to create a virtual environment to isolate your project dependencies:
 
-```bash
-# Create virtual environment
-$ python3 -m venv onnx_venv
+    ```bash
+    # Create virtual environment
+    $ python3 -m venv onnx_venv
 
-# Activate the virtual environment
-$ source onnx_venv/bin/activate
-```
+    # Activate the virtual environment
+    $ source onnx_venv/bin/activate
+    ```
 
-> [!NOTE]  
-> <sup>- `onnx_venv` is path to new virtual environment.</sup>
+    > [!NOTE]  
+    > <sup>- `onnx_venv` is path to new virtual environment.</sup>
 
 3. **Install Dependencies**
 
-After activating the virtual environment, install the required dependencies:
+    After activating the virtual environment, install the required dependencies:
 
-```bash
-$ pip install -r requirements.txt
-```
+    ```bash
+    $ pip install -r requirements.txt
+    ```
 
-This will install all the packages needed to run the project, as specified in the [requirements.txt](https://github.com/leehoanzu/color-classification/blob/main/requirements.txt) file.
+    This will install all the packages needed to run the project, as specified in the [requirements.txt](https://github.com/leehoanzu/color-classification/blob/main/requirements.txt) file.
 
 4. **Run the Main Script**
 
-Once everything is set up, you can run the main script:
+    Once everything is set up, you can run the main script:
 
-```bash
-$ python3 ./utils/main.py
-```
+    ```bash
+    $ python3 ./utils/main.py
+    ```
 
-This command will execute the main Python script located in the `utils` directory.
+    This command will execute the main Python script located in the `utils` directory.
 
 ## Contributing
 
